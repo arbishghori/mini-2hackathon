@@ -1,0 +1,49 @@
+ body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+ 
+  header { 
+    background-color: #9586f9;
+    color: white;
+    padding: 20px;
+  }
+
+  .container {
+    display: flex;
+    margin: 20px;
+  }
+  
+  .header-buttons {
+    display: flex;
+    gap: 10px;
+  }
+
+  .content {
+    flex-grow: 1;
+    background-color: #fff;
+    padding: 20px;
+  }
+  .blog-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .blog-list li {
+    margin-bottom: 10px;
+  }
+
+  .blog-list .title {
+    font-weight: bold;
+  }
+
+  .blog-list .actions {
+    display: inline-block;
+    margin-left: 10px;
+  }
+
+  .blog-list .actions button {
+    margin-right: 5px;
+  }
